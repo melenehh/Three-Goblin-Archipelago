@@ -1,5 +1,0 @@
-#include "CharacterMovementComponentPrePhysicsTickFunction.h"
-
-FCharacterMovementComponentPrePhysicsTickFunction::FCharacterMovementComponentPrePhysicsTickFunction() {
-}
-

@@ -1,5 +1,0 @@
-#include "RigVMFunction_DebugTransformArrayMutable_WorkData.h"
-
-FRigVMFunction_DebugTransformArrayMutable_WorkData::FRigVMFunction_DebugTransformArrayMutable_WorkData() {
-}
-

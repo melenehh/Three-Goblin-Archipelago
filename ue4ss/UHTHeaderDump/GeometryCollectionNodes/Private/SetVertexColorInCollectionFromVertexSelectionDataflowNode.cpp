@@ -1,5 +1,0 @@
-#include "SetVertexColorInCollectionFromVertexSelectionDataflowNode.h"
-
-FSetVertexColorInCollectionFromVertexSelectionDataflowNode::FSetVertexColorInCollectionFromVertexSelectionDataflowNode() {
-}
-

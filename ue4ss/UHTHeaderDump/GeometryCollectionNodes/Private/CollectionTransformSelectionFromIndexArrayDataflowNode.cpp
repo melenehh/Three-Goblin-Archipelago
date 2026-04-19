@@ -1,5 +1,0 @@
-#include "CollectionTransformSelectionFromIndexArrayDataflowNode.h"
-
-FCollectionTransformSelectionFromIndexArrayDataflowNode::FCollectionTransformSelectionFromIndexArrayDataflowNode() {
-}
-
