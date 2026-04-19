@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_GoblinCharacter.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BP_GoblinCharacter.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\WobblinGame.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WobblinGame.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_PretzelPickup.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BP_PretzelPickup.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_SaveOptions.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BP_SaveOptions.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_SaveProgression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BP_SaveProgression.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_KeyPickup.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BP_KeyPickup.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_HatPickup.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BP_HatPickup.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_KeyPickup_DUPL_1.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BP_KeyPickup_DUPL_1.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_GoblinController.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BP_GoblinController.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BP_KeyPickup_DUPL_1.hpp",
+              "DocumentMoniker": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_KeyPickup_DUPL_1.hpp",
+              "RelativeDocumentMoniker": "BP_KeyPickup_DUPL_1.hpp",
+              "ToolTip": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_KeyPickup_DUPL_1.hpp",
+              "RelativeToolTip": "BP_KeyPickup_DUPL_1.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-06T15:34:55.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BP_KeyPickup.hpp",
+              "DocumentMoniker": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_KeyPickup.hpp",
+              "RelativeDocumentMoniker": "BP_KeyPickup.hpp",
+              "ToolTip": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_KeyPickup.hpp",
+              "RelativeToolTip": "BP_KeyPickup.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-06T15:34:54.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BP_HatPickup.hpp",
+              "DocumentMoniker": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_HatPickup.hpp",
+              "RelativeDocumentMoniker": "BP_HatPickup.hpp",
+              "ToolTip": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_HatPickup.hpp",
+              "RelativeToolTip": "BP_HatPickup.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-06T15:34:50.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BP_GoblinController.hpp",
+              "DocumentMoniker": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_GoblinController.hpp",
+              "RelativeDocumentMoniker": "BP_GoblinController.hpp",
+              "ToolTip": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_GoblinController.hpp",
+              "RelativeToolTip": "BP_GoblinController.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-06T15:34:47.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BP_GoblinCharacter.hpp",
+              "DocumentMoniker": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_GoblinCharacter.hpp",
+              "RelativeDocumentMoniker": "BP_GoblinCharacter.hpp",
+              "ToolTip": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_GoblinCharacter.hpp",
+              "RelativeToolTip": "BP_GoblinCharacter.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-06T15:34:47.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BP_SaveProgression.hpp",
+              "DocumentMoniker": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_SaveProgression.hpp",
+              "RelativeDocumentMoniker": "BP_SaveProgression.hpp",
+              "ToolTip": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_SaveProgression.hpp",
+              "RelativeToolTip": "BP_SaveProgression.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-06T15:30:30.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BP_SaveOptions.hpp",
+              "DocumentMoniker": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_SaveOptions.hpp",
+              "RelativeDocumentMoniker": "BP_SaveOptions.hpp",
+              "ToolTip": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_SaveOptions.hpp",
+              "RelativeToolTip": "BP_SaveOptions.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-06T15:30:29.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BP_PretzelPickup.hpp",
+              "DocumentMoniker": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_PretzelPickup.hpp",
+              "RelativeDocumentMoniker": "BP_PretzelPickup.hpp",
+              "ToolTip": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\BP_PretzelPickup.hpp",
+              "RelativeToolTip": "BP_PretzelPickup.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-06T15:30:01.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WobblinGame.hpp",
+              "DocumentMoniker": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\WobblinGame.hpp",
+              "RelativeDocumentMoniker": "WobblinGame.hpp",
+              "ToolTip": "C:\\Users\\JEROM\\Desktop\\Three Goblin Wobblin\u0027\\WobblinGame\\Binaries\\Win64\\ue4ss\\CXXHeaderDump\\WobblinGame.hpp*",
+              "RelativeToolTip": "WobblinGame.hpp*",
+              "ViewState": "AgIAABMBAAAAAAAAAAAvwC0BAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-06T15:08:31.427Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

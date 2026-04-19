@@ -1,0 +1,6 @@
+#include "MaterialExpressionSparseVolumeTextureObjectParameter.h"
+
+UMaterialExpressionSparseVolumeTextureObjectParameter::UMaterialExpressionSparseVolumeTextureObjectParameter() {
+}
+
+

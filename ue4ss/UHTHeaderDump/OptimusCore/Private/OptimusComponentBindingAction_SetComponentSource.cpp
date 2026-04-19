@@ -1,0 +1,5 @@
+#include "OptimusComponentBindingAction_SetComponentSource.h"
+
+FOptimusComponentBindingAction_SetComponentSource::FOptimusComponentBindingAction_SetComponentSource() {
+}
+

@@ -1,0 +1,5 @@
+#include "OptimusNode_ResourceAccessorBase_DuplicationInfo.h"
+
+FOptimusNode_ResourceAccessorBase_DuplicationInfo::FOptimusNode_ResourceAccessorBase_DuplicationInfo() {
+}
+

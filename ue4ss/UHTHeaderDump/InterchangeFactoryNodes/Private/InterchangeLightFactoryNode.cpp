@@ -1,0 +1,30 @@
+#include "InterchangeLightFactoryNode.h"
+
+UInterchangeLightFactoryNode::UInterchangeLightFactoryNode() {
+}
+
+bool UInterchangeLightFactoryNode::SetCustomIntensityUnits(ELightUnits AttributeValue, bool bAddApplyDelegate) {
+    return false;
+}
+
+bool UInterchangeLightFactoryNode::SetCustomIESTexture(const FString& AttributeValue) {
+    return false;
+}
+
+bool UInterchangeLightFactoryNode::SetCustomAttenuationRadius(float AttributeValue, bool bAddApplyDelegate) {
+    return false;
+}
+
+bool UInterchangeLightFactoryNode::GetCustomIntensityUnits(ELightUnits& AttributeValue) const {
+    return false;
+}
+
+bool UInterchangeLightFactoryNode::GetCustomIESTexture(FString& AttributeValue) const {
+    return false;
+}
+
+bool UInterchangeLightFactoryNode::GetCustomAttenuationRadius(float& AttributeValue) const {
+    return false;
+}
+
+

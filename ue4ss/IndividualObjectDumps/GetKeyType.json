@@ -1,0 +1,37 @@
+{
+   "Meta": {
+      "Address": "000001988715C2C0",
+      "ClassPrivate": {
+         "Address": "0000019819103400",
+         "Name": "Function"
+      },
+      "NamePrivate": {
+         "Components": {
+            "ComparisonIndex": 395077,
+            "DisplayIndex": null,
+            "Number": 0
+         },
+         "String": "GetKeyType"
+      },
+      "ObjectFlags": {
+         "Flags": [
+            "RF_Public",
+            "RF_Transient",
+            "RF_AllFlags"
+         ],
+         "Raw": 65
+      },
+      "Path": "/Script/WobblinGame.KeyPickup:GetKeyType",
+      "PlayerControlled": false,
+      "Size": {
+         "Exclusive": {
+            "GetKeyType": 1
+         },
+         "Inclusive": {
+            "GetKeyType": 1
+         },
+         "Total": 1
+      }
+   },
+   "Values": null
+}
