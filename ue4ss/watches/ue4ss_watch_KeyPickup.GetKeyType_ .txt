@@ -1,0 +1,10 @@
+[2026-03-18 23:37:25.8863198] Received call @ 23:37:25.8848144.
+  Context:
+    BP_KeyPickup_C /Game/Levels/ForestVillage.ForestVillage:PersistentLevel.BP_KeyPickup_C_1
+  Locals:
+    <No Local Params>
+  Out:
+    <No Out Params>
+  ReturnValue
+    BRONZE
+
