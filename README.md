@@ -9,7 +9,7 @@ Please be sure to check [Known Issues](##Known-Issues) before playing and please
 
 ## Installation:
 1. In Steam, right click the game and choose Manage > Browse Local Files
-2. Download WobblinGame.zip from [releases]
+2. Download WobblinGame.zip from [releases](https://github.com/melenehh/Three-Goblin-Archipelago/releases)
 3. Place Unzipped WobblinGame folder in same directory as existing WobblinGame folder (may not look like anything happens, but it places files where they need to go)
 4. Wobble away
 
