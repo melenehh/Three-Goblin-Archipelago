@@ -70,14 +70,19 @@ function connect(server, slot, password)
 
         local currentLocation = -1
         print("Items received:")
-        for _, location in ipairs(ap.locations) do
-            print(tonumber(location.locations))
-            print("Base ID:")
-            print(tonumber(baseID))
-            currentLocation = tonumber(location.locations) - tonumber(baseID)
-            print("Current Location ID:")
-            print(currentLocation)
-            table.insert(locationList, currentLocation)
+        if ap.locations == nil then do
+        end
+        else do
+            for _, location in ipairs(ap.locations) do
+                print(tonumber(location.locations))
+                print("Base ID:")
+                print(tonumber(baseID))
+                currentLocation = tonumber(location.locations) - tonumber(baseID)
+                print("Current Location ID:")
+                print(currentLocation)
+                table.insert(locationList, currentLocation)
+            end
+        end
         end
     end
 
@@ -200,8 +205,8 @@ end
 
 RegisterHook ("/Game/Mods/RandomizerMod/ModActor.ModActor_C:SetModActor", function()
         print("running this")
-        local modActor = FindFirstOf("ModActor_C")
         if isConnected == true then
+            local modActor = FindFirstOf("ModActor_C")
             print("giving items")
             for key, item in ipairs(itemsList) do
                 print(item)
