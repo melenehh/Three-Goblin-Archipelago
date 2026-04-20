@@ -7,6 +7,11 @@ for this version. Also uses the [lua-apclientpp library](https://github.com/blac
 Please be sure to check [Known Issues](##Known-Issues) before playing and please report any bugs or feedback to the
 [Discord thread](https://discord.com/channels/731205301247803413/1487653426128228362) and feel free to ping or DM me with issues (@meleneh)
 
+## IMPORTANT NOTES
+There is currently no visual feedback when connecting via the panel, or for when you receive keys/hats. You may want to look at the console that launches with the modded game
+or the archipelago log to see when you are connected and what you are receiving. If you want to see what you have in game, you currently must pause to update the 
+visual indicators from the vanilla game.
+
 ## Installation:
 1. In Steam, right click the game and choose Manage > Browse Local Files
 2. Download WobblinGame.zip from [releases](https://github.com/melenehh/Three-Goblin-Archipelago/releases)
