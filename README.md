@@ -13,11 +13,18 @@ or the archipelago log to see when you are connected and what you are receiving.
 visual indicators from the vanilla game.
 
 ## Installation:
+**THIS GAME EXPECTS YOU TO HAVE A SAVE FILE WITH ACCESS TO ALL LEVELS. TO DOWNLOAD AND INSTALL A FULL SAVE FILE, CONTINUE TO [Save File Install](##Save_File_Install)**
 1. In Steam, right click the game and choose Manage > Browse Local Files
 2. Download WobblinGame.zip from [releases](https://github.com/melenehh/Three-Goblin-Archipelago/releases)
 3. Place Unzipped WobblinGame folder in same directory as existing WobblinGame folder (may not look like anything happens, but it places files where they need to go)
 4. Wobble away
 
+## Save File Install
+1. Go to %appdata% in your File Explorer
+2. Go back one folder to AppData then into AppData > Local > WobblinGame > Saved > SaveGames
+3. If you would like to back up your existing save, rename ProgressionV1.sav 
+4. Download the full save file pinned in the [discord thread](https://discord.com/channels/731205301247803413/1487653426128228362/1496219355720192150) and place it in the folder
+5. Wobble away
 
 ## What's Randomized?
 ### Locations:
