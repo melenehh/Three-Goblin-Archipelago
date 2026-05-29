@@ -1,5 +1,5 @@
 # Three Goblin Wobblin' Archipelago
-This mod integrates Three Goblin' Wobblin into the [Archipelago Multiworld Randomizer](archipelago.gg). It is currently
+This mod integrates Three Goblin' Wobblin into the [Archipelago Multiworld Randomizer](https://archipelago.gg). It is currently
 playable, but unstable with a few known crashes and issues. It uses the [latest experimental branch of RE-UE4SS Mod Loader](https://github.com/UE4SS-RE/RE-UE4SS/releases/tag/experimental-latest)
 due to the game being made in Unreal Engine 5.3 and the latest full release having issues with loading blueprint mods
 for this version. Also uses the [lua-apclientpp library](https://github.com/black-sliver/lua-apclientpp) to connect to Archipelago.
