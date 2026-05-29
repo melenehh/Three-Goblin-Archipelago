@@ -5,11 +5,10 @@ due to the game being made in Unreal Engine 5.3 and the latest full release havi
 for this version. Also uses the [lua-apclientpp library](https://github.com/black-sliver/lua-apclientpp) to connect to Archipelago.
 
 Please be sure to check [Known Issues](##Known-Issues) before playing and please report any bugs or feedback to the
-[Discord thread](https://discord.com/channels/731205301247803413/1487653426128228362) and feel free to ping or DM me with issues (@meleneh)
+[Discord thread](https://discord.com/channels/731205301247803413/1487653426128228362) and feel free to ping or DM me with issues (@meleneh) Please be ready to provide the [UE4SS Log](https://github.com/melenehh/Three-Goblin-Archipelago##UE4SS-Log)
 
 ## IMPORTANT NOTES
-There is currently no visual feedback when connecting via the panel, or for when you receive keys/hats. You may want to look at the console that launches with the modded game
-or the archipelago log to see when you are connected and what you are receiving. If you want to see what you have in game, you currently must pause to update the 
+There is currently no visual feedback when you receive keys/hats aside from the feed. If you want to see what you have in game, you currently must pause to update the 
 visual indicators from the vanilla game.
 
 ## Installation:
@@ -25,6 +24,20 @@ visual indicators from the vanilla game.
 3. If you would like to back up your existing save, rename ProgressionV1.sav 
 4. Download the full save file pinned in the [discord thread](https://discord.com/channels/731205301247803413/1487653426128228362/1496219355720192150) and place it in the folder
 5. Wobble away
+
+## Port Change
+If your port changes during a randomizer, this will effect the tracking of levels beaten as well as cleared checks. To fix this, follow the following instructions:
+1. Go to %appdata% in your File Explorer
+2. Go back one folder to AppData then into AppData > Local > WobblinGame > Saved > SaveGames
+3. Locate the file named <OldPortNumber>_<SlotName>
+4. Rename the file replacing the old port number with the new one
+5. Wobble away
+
+## UE4SS Log
+If you encounter a bug or glitch, please provide the log file over Discord alongside your bug report. In order to find the log, follow the following instructions:
+1. In Steam, right click the game and choose Manage > Browse Local Files
+2. Go to the directory WobblinGame/Binaries/Win64/UE4SS and locate the UE4SS.log file
+3. Wobble into Discord and upload the file
 
 ## What's Randomized?
 ### Locations:
@@ -42,17 +55,17 @@ visual indicators from the vanilla game.
 - Beat all 6 levels
 
 ## Upcoming/Missing Features
-- Make it so levers and doors don't reset when loading levels (currently there is a great chance to have to replay long sections)
-- Make connection panel update when connected
-- Prevent previously spawned locations from spawning
-- Implement sprint key or extra teleporters to offer shortcuts after certain locations have been checked
-- on screen feedback when receiving an item (currently can only tell by pausing to update the vanilla indicators)
+- ~~Make connection panel update when connected~~
+- ~~Prevent previously spawned locations from spawning~~
+- Color coded feed messages
+- Add custom shortcut teleporters to improve QoL
 - Add options to choose which levels are included
 - Add traps
 - Add cosmetic options
 - Make pretzels useful
 - Add whimsy
 
-## Known Issues
-- Crash caused by the client mod disconnecting during a level and then collecting an item, even if reconnecting
-- Rare case of the level ending actor not spawning, making the game not clear even once all levels have been beaten
+# Known Issues
+- Occasional crashes for unknown reasons
+- Some longer load times
+- Cannot handle port changes, see [Port Change Instructions](https://github.com/melenehh/Three-Goblin-Archipelago##Port-Change)
