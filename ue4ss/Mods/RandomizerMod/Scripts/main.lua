@@ -1,6 +1,5 @@
 local AP = require "lua-apclientpp"
 
--- global to this mod
 local game_name = "Three Goblin Wobblin"
 local items_handling = 7  -- full remote
 local client_version = {0, 5, 1}  -- optional, defaults to lib version
@@ -8,9 +7,8 @@ local message_format = AP.RenderFormat.TEXT
 ---@type APClient
 local ap = nil
 
--- TODO: user input
 local host = "localhost"
-local slot = "Player1"
+local slot = "Goblin"
 local password = ""
 
 local baseID = 715212914
@@ -20,6 +18,27 @@ local locationList = {}
 
 local isConnected = false
 
+local t0 = os.clock()
+while os.clock() - t0 < 5 do
+end
+
+local modActor = FindFirstOf("ModActor_C")
+modActor:SpawnFeed()
+
+
+local t0 = os.clock()
+while os.clock() - t0 < 5 do
+end
+print(FindFirstOf("AP_Feed_C"))
+local feed = FindFirstOf("AP_Feed_C")
+print(feed)
+
+function log_message(message)
+    print(feed)
+    feed:PrintToLog(message)
+end
+
+
 function connect(server, slot, password)
     function on_socket_connected()
         print("Socket connected")
@@ -27,10 +46,15 @@ function connect(server, slot, password)
 
     function on_socket_error(msg)
         print("Socket error: " .. msg)
+        ap = nil
+        local widget = FindFirstOf("ModActor_C")
+        widget:DisconnectSwap()
     end
 
     function on_socket_disconnected()
         print("Socket disconnected")
+        local widget = FindFirstOf("ModActor_C")
+        widget:DisconnectSwap()
     end
 
     function on_room_info()
@@ -39,6 +63,12 @@ function connect(server, slot, password)
     end
 
     function on_slot_connected(slot_data)
+
+        local widget = FindFirstOf("ModActor_C")
+        widget:ConnectSwap()
+        -- widget:
+
+
         print(ap:get_game())
         assert(not pcall(function() ap:get_item_name((baseID + 1)) end)) -- not valid anymore, need 2nd arg
         assert(ap:get_item_name((baseID + 1), nil) == ap:get_item_name((baseID + 1), ap:get_game()))
@@ -89,6 +119,7 @@ function connect(server, slot, password)
 
     function on_slot_refused(reasons)
         print("Slot refused: " .. table.concat(reasons, ", "))
+        ap = nil
     end
 
     function on_items_received(items)
@@ -104,6 +135,7 @@ function connect(server, slot, password)
             print(currentItem)
             modActor:GiveItems(tonumber(currentItem))
             table.insert(itemsList, currentItem)
+            
         end
     end
 
@@ -125,13 +157,16 @@ function connect(server, slot, password)
     end
 
     function on_print(msg)
+  
         print(msg)
+
     end
 
     function on_print_json(msg, extra)
         print(ap:render_json(msg, message_format))
+        log_message(ap:render_json(msg, message_format))
         for key, value in pairs(extra) do
-            -- print("  " .. key .. ": " .. tostring(value))
+            print("  " .. key .. ": " .. tostring(value))
         end
     end
 
@@ -197,6 +232,8 @@ function connectToAp(host, slot, password)
     -- local modActor = FindFirstOf("ModActor_C") | Attempt to prevent levers from resetting
     -- print(modActor)
     -- modActor:DontReset()
+
+
     while ap do
         ap:poll()
     end
@@ -217,29 +254,33 @@ RegisterHook ("/Game/Mods/RandomizerMod/ModActor.ModActor_C:SetModActor", functi
 end)
 
 RegisterHook("/Game/Mods/RandomizerMod/ModActor.ModActor_C:CallRemoveFunction", function()
-        print("running this")
-        local modActor = FindFirstOf("ModActor_C")
-        if isConnected == true then
-            print("removing locations")
-            for key, location in ipairs(locationList) do
-                print(location)
-                modActor:DeleteLocation(location)
-            end
+    print("running this")
+    local modActor = FindFirstOf("ModActor_C")
+    if isConnected == true then
+        print("removing locations")
+        for key, location in ipairs(locationList) do
+            print(location)
+            modActor:DeleteLocation(location)
         end
-    end)
+    end
+end)
 
-RegisterHook ("/Game/Mods/RandomizerMod/AP_Input.AP_Input_C:RetrieveConnectionData", function(Context, Address, SlotName, Password)
-    
+
+
+
+RegisterHook ("/Game/Mods/RandomizerMod/AP_Input.AP_Input_C:RetrieveConnectionData", function(Context, Address, SlotName, Password, Connected)
+
     host = Address:Get():ToString()
 
     slot = SlotName:Get():ToString()
 
     password = Password:Get():ToString()
-    -- connect(host, slot, password)
+
     print(host)
     print(slot)
     print(password)
     print(host, ", ", slot, ", ", password)
+
     connectToAp(host, slot, password)
 end)
 
@@ -247,13 +288,15 @@ RegisterHook ("/Game/Mods/RandomizerMod/ModActor.ModActor_C:SendVictory", functi
     ap:StatusUpdate(30)
 end)
 
-ExecuteAsync(function()
-    RegisterHook ("/Game/Mods/RandomizerMod/AP_Input.AP_Input_C:DisconnectAP", function(self)
-        print("shutting down...")
-        ap = nil
-        collectgarbage("collect")
-    end)
+-- ExecuteAsync(function()
+RegisterHook ("/Game/Mods/RandomizerMod/ModActor.ModActor_C:DisconnectAP", function(self)
+    print("shutting down...")
+    ap = nil
+    collectgarbage("collect")
+    local widget = FindFirstOf("ModActor_C")
+    widget:DisconnectSwap()
 end)
+-- end)
 
 RegisterHook ("/Game/Mods/RandomizerMod/ModActor.ModActor_C:SendItem", function(Context, LocationID, LocationOutput)
     if ap == nil then
@@ -272,4 +315,19 @@ RegisterHook ("/Game/Mods/RandomizerMod/ModActor.ModActor_C:GetSlotInfo", functi
     print(slot)
     PortOutput:Set(port)
     SlotOutput:Set(slot)
+end)
+
+RegisterHook ("/Game/Mods/RandomizerMod/ModActor.ModActor_C:CheckConnection", function(Context, Connected)
+    if ap then
+        Connected:Set(true)
+        return true
+    else
+        Connected:Set(true)
+        return false
+    end
+end)
+
+RegisterHook ("/Game/Mods/RandomizerMod/ModActor.ModActor_C:DeleteOtherModActors", function(self)
+    print(feed)
+    feed:FixReference(self)
 end)

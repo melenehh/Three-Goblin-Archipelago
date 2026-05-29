@@ -2,14 +2,6 @@ from dataclasses import dataclass
 
 from Options import Choice, OptionGroup, PerGameCommonOptions, Range, Toggle
 
-class ProgressiveKeys(Toggle):
-    """
-    Receive Individual Keys, which may encourage different logic paths through the level shortcuts
-    or Progressive Keys for a more standard playthrough
-    """
-
-    display_name = "Progressive Keys"
-
 
 class HardMode(Toggle):
     """
@@ -19,34 +11,33 @@ class HardMode(Toggle):
     display_name = "Hard Mode"
 
 
+class ProgressiveKeys(Toggle):
+    """
+    Set each individual key as an item, which may encourage different logic paths through the level shortcuts
+    or progressive keys for a more standard playthrough
+    """
 
-# class PretzelsToClear(Range):
-#     """
-#     How many pretzels will be required to unlock the goal level.
-#     """
-#
-#     display_name = "Pretzels for Goal Unlock"
-#
-#     range_start = 0
-#     range_end = 30
-#     default = 0
+    display_name = "Progressive Keys"
 
 
+# We must now define a dataclass inheriting from PerGameCommonOptions that we put all our options in.
+# This is in the format "option_name_in_snake_case: OptionClassName".
 @dataclass
-class ThreeGoblinOptions(PerGameCommonOptions):
-    progressive_keys: ProgressiveKeys
+class GoblinOptions(PerGameCommonOptions):
     hard_mode: HardMode
+    progressive_keys: ProgressiveKeys
 
 option_groups = [
     OptionGroup(
         "Gameplay Options",
-        [ProgressiveKeys, HardMode],
+        [HardMode, ProgressiveKeys],
     )
 ]
 
+# Finally, we can define some option presets if we want the player to be able to quickly choose a specific "mode".
 option_presets = {
     "default": {
         "hard_mode": False,
-        "progressive_keys": False,
-    }
+        "progressive_keys": True,
+    },
 }
