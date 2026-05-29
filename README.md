@@ -5,14 +5,14 @@ due to the game being made in Unreal Engine 5.3 and the latest full release havi
 for this version. Also uses the [lua-apclientpp library](https://github.com/black-sliver/lua-apclientpp) to connect to Archipelago.
 
 Please be sure to check [Known Issues](##Known-Issues) before playing and please report any bugs or feedback to the
-[Discord thread](https://discord.com/channels/731205301247803413/1487653426128228362) and feel free to ping or DM me with issues (@meleneh) Please be ready to provide the [UE4SS Log](https://github.com/melenehh/Three-Goblin-Archipelago##UE4SS-Log)
+[Discord thread](https://discord.com/channels/731205301247803413/1487653426128228362) and feel free to ping or DM me with issues (@meleneh) Please be ready to provide the [UE4SS Log](https://github.com/melenehh/Three-Goblin-Archipelago#UE4SS-Log)
 
 ## IMPORTANT NOTES
 There is currently no visual feedback when you receive keys/hats aside from the feed. If you want to see what you have in game, you currently must pause to update the 
 visual indicators from the vanilla game.
 
 ## Installation:
-**THIS GAME EXPECTS YOU TO HAVE A SAVE FILE WITH ACCESS TO ALL LEVELS. TO DOWNLOAD AND INSTALL A FULL SAVE FILE, CONTINUE TO [Save File Install](##Save_File_Install)**
+**THIS GAME EXPECTS YOU TO HAVE A SAVE FILE WITH ACCESS TO ALL LEVELS. TO DOWNLOAD AND INSTALL A FULL SAVE FILE, CONTINUE TO [Save File Install](https://github.com/melenehh/Three-Goblin-Archipelago#UE4SS-Log#Save_File_Install)**
 1. In Steam, right click the game and choose Manage > Browse Local Files
 2. Download WobblinGame.zip from [releases](https://github.com/melenehh/Three-Goblin-Archipelago/releases)
 3. Place Unzipped WobblinGame folder in same directory as existing WobblinGame folder (may not look like anything happens, but it places files where they need to go)
