@@ -29,7 +29,7 @@ visual indicators from the vanilla game.
 If your port changes during a randomizer, this will effect the tracking of levels beaten as well as cleared checks. To fix this, follow the following instructions:
 1. Go to %appdata% in your File Explorer
 2. Go back one folder to AppData then into AppData > Local > WobblinGame > Saved > SaveGames
-3. Locate the file named <OldPortNumber>_<SlotName>
+3. Locate the file named [OldPortNumber]_[SlotName]
 4. Rename the file replacing the old port number with the new one
 5. Wobble away
 
