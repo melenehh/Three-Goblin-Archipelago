@@ -69,3 +69,7 @@ If you encounter a bug or glitch, please provide the log file over Discord along
 - Occasional crashes for unknown reasons
 - Some longer load times
 - Cannot handle port changes, see [Port Change Instructions](https://github.com/melenehh/Three-Goblin-Archipelago/blob/main/README.md#port-change)
+
+# Teleporter Model
+### The teleporter model was made by Yanira Zamorano, links below.
+### [GitHub](https://github.com/catwforce) | [Twitch](https://twitch.tv/catwangforce) | [TikTok](https://tiktok.com/@catwangforce)
